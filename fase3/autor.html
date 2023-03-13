@@ -1,61 +1,80 @@
-<link rel="stylesheet" href="css/estilos.css">
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
-    <body>
-        <header>
-            <H1 ><b></b>DISEÑO DE SITIOS WEB</H1></header>
-    
-            <link rel="stylesheet" href="css/estilo2.css">
-            
-        </header>
-        <nav class="contenido">
-            <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Temas</a>
-                    <ul>
-                        <li><a href="flexbox.html">FLEXBOX</a></li>
-                        <li><a href="listas y enlaces.html">LISTAS Y ENLACES</a></li>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Básicas de HTML, atributos y valores</title>
+    <link rel="stylesheet" href="Estilos_CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">MENU <br> Fase 3 Diseño y construccion II</a></h1>
+        <nav class="posicion">
+            <ul>
+                <li><h2><a href="Inicio.html">INICIO</a></h2></li>
+                <li><h2><a href="#">Temas</a></h2>
+                    <ul class="despliege">
+                        <li><h3><a href="tema1.html">Tema 1</a></h3></li>
+                        <li><h3><a href="tema2.html">Tema 2</a></h3></li>
+                    </ul>
+                    </li>
+                <li><h2><a href="#">Recursos Digitales</a></h2>
+                    <ul class="despliege">
+                        <li><h3><a href="recurso1.html">Recurso 1</a></h3></li>
+                        <li><h3><a href="recurso2.html">Recurso 2</a></h3></li>
                     </ul>
                 </li>
-                <li><a href="#">Recursos Digitales</a>
-                    <ul>
-                        <li><a href="recurso 1.html">Recurso 1</a></li>
-                        <li><a href="recurso 2.html">Recurso 2</a></li>
+                <li><h2><a href="#">Aprendizaje</a></h2>
+                    <ul class="despliege">
+                        <li><h3><a href="aprendizaje1.html">Actividad 1</a></h3></li>
+                        <li><h3><a href="aprendizaje2.html">Actividad 2</a></h3></li>
                     </ul>
                 </li>
-                <li><a href="#">Aprendizaje</a>
-                    <ul>
-                        <li><a href="Aprendisaje 1.html">Aprendisaje 1</a></li>
-                        <li><a href="Aprendisaje 2.html">Aprendisaje 2</a></li>
-                    </ul>
-                </li>
-                <li><a href="autor.html">Autor</a>
-                </li>
-            </ul>
+                <li><h2><a href="autor.html">Autor</a></h2></li>
         </nav>
+    </header>
+    <div class="contenedor">
         <section>
-            <article class="Autor" ><br><br><br><br><br>
-               
-               <H3>
-                   Jose David Buelvas Cuello <br>
-                   Grupo No. 301122_2  <br>
-                   Ingenieria de sistemas <br>
-                   Curso diseño de sitios web <br>
-                   Correo Buel_895@hotmail.com <br>
-                   skype Buel_895 <br>
-                </H3><br><br><br><br><br><br><br></center>
+            <h1> Recursos educativos con Etiquetas Basicas de HTML, atributos y valores</h1>
+            <p> Este sitio a sido diseñado para suplir la necesidad de la presencialidad en la clases de los
+                estudiantes. Esta dirigido a todas las <br>
+                instituciones educativas del pais, esto como resultado a la necesidad de elaborar recursos educativos
+                digitales que nos permitan dinamizar <br>
+                las metodologias de aprendizaje autonomo y dirigido. Teniendo en cuenta el avance de la tecnologia
+                podemos enfocar la enseñanza y aprendizaje <br>
+                de maneras virtuales. Estos proyectos, es diseñado con contenidos multimediales e interactivos, basados
+                en HTML5, CSS3 entre otras tecnologías <br>
+                para que el aprendizaje sea practico y dinamico.</p>
+            
+            <article>
+                <p>
+                <h2> Autor</h2>
+                </p>
+                <p>Carlos Rafael Maestre Marquez <br>
+                    Codigo 106557701 <br>
+                    Estudiante de Ingenieria de Sistemas de la unad <br>
+                    Correo elctronico: crmaestrem@unadvirtual.edu.co <br>
+                    usuario de skype: @crmaestrem86 <br>
+                    <img src="img/CARLOS.png" alt="Fotografia reciente">
+                </p>
             </article>
-            <aside>
-                <center><img src="img/DSC_0023.JPG" width="450" height="350" ></center>
-           
-            </aside>
-
         </section>
-        <footer align="center">skype Buel_895
-  
-                    
-        </footer>
-    </body>
-
-
-
-
+        <aside>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=2622px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="1172px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </div>
+    <footer>
+        <p>
+            Correo electronico: crmaestrem@unadvirtual.edu.co <br>
+            Skype: crmaestrem86@hotmail.com
+        </p>
+    </footer>
+</body>
+</html>
