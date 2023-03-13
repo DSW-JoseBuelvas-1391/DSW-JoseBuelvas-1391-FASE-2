@@ -1,124 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fase3DiseñodeSitiosWeb</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-    crossorigin="anonymous"></script>
+    <title>Etiquetas Básicas de HTML, atributos y valores</title>
+    <link rel="stylesheet" href="Estilos_CSS/style.css">
 </head>
+
 <body>
     <header>
-        FLEXBOX
-    </header>
-    <nav>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Temas
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="flexbox.html">FLEXBOX</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Recursos Digitales
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="recurso 1.html">Recurso 1</a></li>
-                                <li><a class="dropdown-item" href="recurso 2.html">Recurso 2</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Aprendizaje
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="Aprendisaje 1.html">Aprendisaje 1</a></li>
-                                <li><a class="dropdown-item" href="Aprendisaje 2.html">Aprendisaje 2</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="autor.html" id="navbarDropdown" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                AUTOR
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="autor.html">Autor</a></li>
-                            </ul>
-                        </li>
-
+        <h1><a href="index.html">MENU <br> Fase 3 Diseño y construccion II</a></h1>
+        <nav class="posicion">
+            <ul>
+                <li><h2><a href="Inicio.html">INICIO</a></h2></li>
+                <li><h2><a href="#">Temas</a></h2>
+                    <ul class="despliege">
+                        <li><h3><a href="tema1.html">Tema 1</a></h3></li>
+                        <li><h3><a href="tema2.html">Tema 2</a></h3></li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
-            </div>
+                    </li>
+                <li><h2><a href="#">Recursos Digitales</a></h2>
+                    <ul class="despliege">
+                        <li><h3><a href="recurso1.html">Recurso 1</a></h3></li>
+                        <li><h3><a href="recurso2.html">Recurso 2</a></h3></li>
+                    </ul>
+                </li>
+                <li><h2><a href="#">Aprendizaje</a></h2>
+                    <ul class="despliege">
+                        <li><h3><a href="aprendizaje1.html">Actividad 1</a></h3></li>
+                        <li><h3><a href="aprendizaje2.html">Actividad 2</a></h3></li>
+                    </ul>
+                </li>
+                <li><h2><a href="autor.html">Autor</a></h2></li>
         </nav>
-    </nav>
-
-    <section>
-        <article class="informacion">
-             <h2>Próposito del sitio</h2>
-             <p>
-                 Este sitio web se realiza con el objetivo de crear recursos educativos y digitales 
-                 <br>
-                 buscando  de esta forma dinamizar las estrategzias de aprendizaje sobre las características,<br> atributos y valores principales de Flex Box, listas y enlaces.   
-                
-            </p>
-        </article>
-
+    </header>
+    <div class="contenedor">
+        <section>
+            <h1> Recursos educativos con Etiquetas Basicas de HTML, atributos y valores</h1>
+            <p> Este sitio a sido diseñado para suplir la necesidad de la presencialidad en la clases de los
+                estudiantes. Esta dirigido a todas las <br>
+                instituciones educativas del pais, esto como resultado a la necesidad de elaborar recursos educativos
+                digitales que nos permitan dinamizar <br>
+                las metodologias de aprendizaje autonomo y dirigido. Teniendo en cuenta el avance de la tecnologia
+                podemos enfocar la enseñanza y aprendizaje <br>
+                de maneras virtuales. Estos proyectos, es diseñado con contenidos multimediales e interactivos, basados
+                en HTML5, CSS3 entre otras tecnologías <br>
+                para que el aprendizaje sea practico y dinamico.</p>
+            
+            <article>
+                <p>
+                <h2> Autor</h2>
+                </p>
+                <p>Carlos Rafael Maestre Marquez <br>
+                    Codigo 106557701 <br>
+                    Estudiante de Ingenieria de Sistemas de la unad <br>
+                    Correo elctronico: crmaestrem@unadvirtual.edu.co <br>
+                    usuario de skype: @crmaestrem86 <br>
+                    <img src="img/CARLOS.png" alt="Fotografia reciente">
+                </p>
+            </article>
+        </section>
         <aside>
-            <div>
-                <iframe
-                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FUniversidadUNAD%2Fphotos%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                    width="350" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowfullscreen="true"
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                </iframe>
-            </div>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=2622px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="1172px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </aside>
-    </section>
-
-
-    <Br>
-        <footer>
-            <h5> Jose David Buelvas Cuello</h5>
-            <h5>Correo: Buel_895@hotmail.com</h5>
-            <h5>Skype: Buel_895 </h5>
-            <h5>Fecha de actualización: 10/03/2023</h5>            
-        </footer>
-    </Br>
-    <Br>
-        <footer>
+    </div>
+    <footer>
         <p>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                <img style="border:0;width:88px;height:31px"
-                    src="https://jigsaw.w3.org/css-validator/images/vcss"
-                    alt="¡CSS Válido!" />
-            </a>
+            Correo electronico: crmaestrem@unadvirtual.edu.co <br>
+            Skype: crmaestrem86@hotmail.com
         </p>
-        </footer>
-    </Br>
-
+    </footer>
 </body>
-</html
+</html>
