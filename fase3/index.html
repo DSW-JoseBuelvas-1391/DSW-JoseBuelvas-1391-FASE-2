@@ -1,73 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fase3</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Etiquetas Básicas de HTML, atributos y valores</title>
+    <link rel="stylesheet" href="Estilos_CSS/style.css">
 </head>
+
 <body>
     <header>
-        FLEXBOX
+        <h1><a href="index.html">MENU <br> Fase 3 Diseño y construccion II</a></h1>
+        <nav class="posicion">
+            <ul>
+                <li><h2><a href="Inicio.html">INICIO</a></h2></li>
+                <li><h2><a href="#">Temas</a></h2>
+                    <ul class="despliege">
+                        <li><h3><a href="tema1.html">Tema 1</a></h3></li>
+                        <li><h3><a href="tema2.html">Tema 2</a></h3></li>
+                    </ul>
+                    </li>
+                <li><h2><a href="#">Recursos Digitales</a></h2>
+                    <ul class="despliege">
+                        <li><h3><a href="recurso1.html">Recurso 1</a></h3></li>
+                        <li><h3><a href="recurso2.html">Recurso 2</a></h3></li>
+                    </ul>
+                </li>
+                <li><h2><a href="#">Aprendizaje</a></h2>
+                    <ul class="despliege">
+                        <li><h3><a href="aprendizaje1.html">Actividad 1</a></h3></li>
+                        <li><h3><a href="aprendizaje2.html">Actividad 2</a></h3></li>
+                    </ul>
+                </li>
+                <li><h2><a href="autor.html">Autor</a></h2></li>
+        </nav>
     </header>
-
-    <nav class="contenido">
-        <ul class="menu">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="#">Tema</a>
+    <div class="contenedor">
+        <section>
+            <h1> Recursos educativos con Etiquetas Basicas de HTML, atributos y valores</h1>
+            <p> Este sitio a sido diseñado para suplir la necesidad de la presencialidad en la clases de los
+                estudiantes. Esta dirigido a todas las <br>
+                instituciones educativas del pais, esto como resultado a la necesidad de elaborar recursos educativos
+                digitales que nos permitan dinamizar <br>
+                las metodologias de aprendizaje autonomo y dirigido. Teniendo en cuenta el avance de la tecnologia
+                podemos enfocar la enseñanza y aprendizaje <br>
+                de maneras virtuales. Estos proyectos, es diseñado con contenidos multimediales e interactivos, basados
+                en HTML5, CSS3 entre otras tecnologías <br>
+                para que el aprendizaje sea practico y dinamico.</p>
+            <article>
+                <p>
+                <h2> HTML5</h2>
+                </p>
+                <p> Es un lenguaje de programacion que utiliza una serie de codigos llamados etiquetas <br>
+                    que van definiendo los elementos que componen una pagina web: texto, imágenes, etc. <br>
+                    Esas etiquetas seran interpretadas por un programa navegador de internet. Pero no solo <br>
+                    se limita a ser un lenguaje de etiquetas HTML que solo permite definir elementos basicos, <br>
+                    sino que combina nuevas etiquetas de lenguaje HTML, propiedades CSS3, Javascript y algunas <br>
+                    otras tecnologias. </p>
+                </p>
+            </article>
+            <article>
+                <p>
+                <h2> Etiquetas basicas</h2>
+                </p>
                 <ul>
-                    <li><a href="flexbox.html">FLEXBOX</a></li>
+                    <li> doctype: Primera linea del codigo presente en cualquier documento HTML, indica al navegador
+                        <br>
+                        las especificaciones HTML
+                    </li>
+                    <li> header: Define la cabecera de la pagina </li>
+                    <li> footer: define el pie de pagina </li>
+                    <li> nav: define un elemento de navegacion de la pagina como el menu principal o secundarios </li>
+                    <li> section: encierra el codigo de una seccion del documento </li>
+                    <li> aside: delimita el contenido secundario </li>
+                    <li> article: permite indicar el contenido de la pagina web </li>
+                    <li>
+                        <p>Imagen 1</p>
+                        <img src="img/imagen1.png" alt="prototipo de pagina HTML5">
+                    </li>
+                    <li>
+                        <p>Imagen 2</p>
+                        <img src="img/imagen2.png" alt="ejemplo de documento HTML5">
+                    </li>
                 </ul>
-            </li>
-            <li><a href="#">Recursos Digitales</a>
-                <ul>
-                    <li><a href="recurso 1.html">Recurso 1</a></li>
-                    <li><a href="recurso 2.html">Recurso 2</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Aprendizaje</a>
-                <ul>
-                    <li><a href="Aprendisaje 1.html">Aprendisaje 1</a></li>
-                    <li><a href="Aprendisaje 2.html">Aprendisaje 2</a></li>
-                </ul>
-            </li>
-            <li><a href="autor.html">Autor</a>
-            </li>
-        </ul>
-    </nav>
-    <section>
-        <article class="informacion">
-             <h2>Próposito del sitio</h2>
-             <p>
-                 Este sitio web se realiza con el objetivo de crear recursos educativos y digitales 
-                 <br>
-                 buscando  de esta forma dinamizar las estrategias de aprendizaje sobre las características,<br> atributos y valores principales de Flex Box, listas y enlaces.   
-                 <br>
-                   <i><h1>Qué es Flexbox y cómo se utiliza.?</h1></i><b></b><br>Flexbox viene de “Flexible Box Layout“, que se puede traducir como “Diseño de caja flexible“, y nos aporta una magnífica solución para todos nuestros desarrollos “responsive”. Lo que nos permite es crear un conjunto de elementos flexibles que se adaptan automáticamente a su contenedor y con el que podemos controlar parámetros tales como la alineación, dirección (horizontal/vertical), ajuste de la fila según tamaños y multitud de posibilidades que vamos a presentar en este artículo.
-            </p>
-        </article>
-
+                <h4>referencia apa</h4>
+                <p> Celaya Luna, A. (2014). Creación de páginas web: HTML 5. Málaga, Spain: Editorial ICB. <br>
+                    Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045?page=28.
+                </p>
+                <img src="img/mockup.png" alt="mockup del sitio web">
+            </article>
+        </section>
         <aside>
-            <div>
-                <iframe
-                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FUniversidadUNAD%2Fphotos%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                    width="350" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowfullscreen="true"
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                </iframe>
-            </div>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=2622px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="2422px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </aside>
-    </section>
-
-
-    <Br>
-        <footer>
-            <h5>Correo: Buel_895@hotmail.com</h5>
-            <h5>Skype: Buel_895 </h5>
-            <h5>Fecha de actualización: 10/03/2023</h5>
-        </footer>
-    </Br>
-
+    </div>
+    <footer>
+        <p>
+            Correo electronico: crmaestrem@unadvirtual.edu.co <br>
+            Skype: crmaestrem86@hotmail.com
+        </p>
+    </footer>
 </body>
 </html>
