@@ -103,27 +103,29 @@
                    .flex-item {flex-grow: <numero>; */\* el valor default(estándar) es 0 \*/* }
                     La propiedad no acepta valores negativos.
                 </p>
-                
-                <p> Todas las páginas HTML contienen los mismos elementos básicos:
-                    <h3>Doctype:</h3> Es la primera línea de código que tiene que estar en cualquier documento HTML. 
-                    Esta línea indica al navegador qué especificación de HTML se está utilizando. <br>
-                    <h3>HTML:</h3> El par de etiquetas < html> y < /html> se encuentran al principio y al final de todo documento HTML y sirve para indicar a todos las aplicaciones 
-                    que pueden analizar texto sin formato (no solamente a los navegadores) que esa página utiliza HTML. <br>
-                    <h3>Head:</h3> Las etiquetas < head> y < /head> delimitan el contenido de la cabecera del documento, es decir, el título de la página y una información que no
-                    aparece en la pantalla. <br>
-                    <h3>Title:</h3> El par de etiquetas < title> y < /title> rodea el texto del título. El título aparece en la barra de título del navegador web cuando presenta
-                    la página. Normalmente va dentro del elemento < head>. <br>
-                    <h3>Meta:</h3> < meta> permite aportar metainformación al documento, para su mejor identificación e indexación por los motores de búsqueda.
-                    <h3>Body:</h3> Las etiquetas < body> y < /body> rodean el contenido visible de la página. También puede llevar incluida información sobre las propiedades de la
-                    página, por ejemplo < body bgcolor="#RRGGBB"> define el color de fondo de la página. <br>
-                    <h2>Etiquetas HTML más Comunes</h2>
-                    Comentarios: < !-- comentarios -->: Para escribir anotaciones que sirven para ayudar a la comprensión del código. Lo que se escribe dentro de esta etiqueta es
-                    ignorado por el navegador y no se muestra en la página. Formato de Textos <br>
-                    < b>... < /b> : Aplica negrita al texto incluido entre las etiquetas (es equivalente usar < strong>… < /strong>) <br>
-                    < i>... < /i>: Aplica cursiva al texto incluido entre las etiquetas (es equivalente usar < em>… < /em>) < u> < /u>: Aplica subrayado <br>
+                <h2>flex-shrink</h2>
+                <p>Establece la habilidad de un flex ítem para contraerse, según el caso. .flex-item { flex-shrink: <número>; */\* el valor estándar es 0 \*/* }
+                La propiedad no acepta valores negativos.</p>
+                <h2>flex-basis</h2>
+                <p>Establece el tamaño estándar de un elemento antes de que se distribuya el espacio remanente del contenedor. Puede ser un largo (por ejemplo, 20%, 5rem, etc.) o una
+                    palabra clave. La palabra clave auto significa "observe mis propiedades de altura o ancho" (lo que era hecho por la palabra clave t main-size, que fue depreciada). La palabra clave content significa "establezca el tamaño según el contenido interno del
+                    ítem"; esta palabra clave aún no tiene mucho soporte, por lo que no es fácil de probar,al igual que sus relacionadas: max-content, min-content y fit-content.
+                    .flex-item {flex-basis: flex-basis: | auto; */\* el valor estándar es auto \*/* }
+                    Con el valor 0, el espacio adicional alrededor del contenido no se considera. Con el valor de auto, el espacio adicional se distribuye con base en el valor de flex-grox del ítem.  
+                </p>
+                <h2> flex</h2>
+                <p>Esta es la propiedad shorthand para flex-grow, flex-shrink y flex-basis, combinadas. El segundo y tercer parámetros (flex-shrink y flex-basis) son opcionales. El estándar es 0 1 auto, pero si lo defines con un solo número, es equivalente a 0 1.
+                    .item {flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ] }
+                </p>
+                <h2>align-self</h2>
+                <li>
+                    <p>Imagen 7</p>
+                    <img src="img/imagen7.png" width= "300" height="300" alt="prototipo de pagina HTML5">
+                </li>
+                <p>Permite que la alineación estándar (o lo que esté definido por align-items) se sobrescriba para ítems individuales
+                </p>
                     <h3>Bibliografia</h3>
-                    Celaya Luna, A. (2014). Creación de páginas web: HTML 5. Málaga, Spain: Editorial ICB. Recuperado de
-                    https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045?
+                    Chttps://www.aluracursos.com/blog/flexbox-css-guia-completo-elementos-y-ejemplos 10/03/2023 18:05 PM
                 </p>
             </article>
         </section>
