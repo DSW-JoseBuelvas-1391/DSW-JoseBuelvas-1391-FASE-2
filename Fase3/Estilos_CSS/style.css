@@ -29,11 +29,11 @@ section{
 aside{
     float: left;
     max-width: 20%;
-    background-color: beige;
+    background-color: rgb(221, 221, 198);
 }
 footer{
     text-align: center;
-    color: maroon;
+    color: rgb(239, 187, 187);
 }
 .contenedor::after{
     content: "";
@@ -52,13 +52,13 @@ footer{
     align-items: center;
     justify-content: center;
     color: #fff;
-    background:steelblue;
+    background:rgb(58, 91, 117);
     height: 50px;
     text-decoration: none;
 }
 
 .posicion a:hover {
-    background:lightslategray;
+    background:rgb(37, 76, 114);
     color: #fff;
 
 }
