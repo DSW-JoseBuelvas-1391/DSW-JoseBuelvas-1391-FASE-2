@@ -52,6 +52,22 @@
                     <p>Imagen 4</p>
                     <img src="img/imagen4.png" width= "400" height="400" alt="prototipo de pagina HTML5">
                 </li>
+                <p>Establece el comportamiento estándar de cómo flex ítems están alineados según el eje transversal (cross axis). En cierto modo, funciona de manera similar al justify-content,
+                pero en el eje transversal (perpendicular al eje principal). 
+                . .flex-container {align-items: stretch | flex-start | flex-end | center | baseline; }
+                </p>
+                <h2>Stretch (estándar)</h2>
+                <p> estira los ítems para llenar el contenedor, respetando el min-width/max-width)</p>
+                <h2>Flex-start/start/self-start:</h2>
+                <p>ítems se posicionan al inicio del eje transversal. La diferencia entre ellos es sutil y se refiere a las reglas de flex-direction o writing-mode.</p>
+                <h2>center:</h2>
+                <p>ítems se centran en el eje transversal.</p>
+                <h2>baseline:</h2>
+                <p> ítems se alinean de acuerdo con sus baselines.</p>
+                <p>Los modificadores safe y unsafe se puede usar junto con todas estas palabras clave (por favor verifique el soporte de cada navegador) y sirven para evitar cualquier
+                   alineación de elementos que haga con que el contenido sea inaccesible (por ejemplo, fuera de la pantalla)
+                </p>
+                
                 <p> Todas las páginas HTML contienen los mismos elementos básicos:
                     <h3>Doctype:</h3> Es la primera línea de código que tiene que estar en cualquier documento HTML. 
                     Esta línea indica al navegador qué especificación de HTML se está utilizando. <br>
