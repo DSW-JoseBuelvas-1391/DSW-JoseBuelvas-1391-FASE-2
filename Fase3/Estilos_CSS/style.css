@@ -1,19 +1,19 @@
 nav{
-    background-color:azure;
+    background-color:rgb(198, 244, 244);
 }
 :-webkit-any(article, aside, nav, section) h1{
     font-size: 1.0cm;
-    color: white; background-color:chocolate;
+    color: white; background-color:rgb(30, 69, 210);
 }
 h1{
     text-align: center;
-    color:blue; background-color:white;
+    color:rgb(202, 202, 247); background-color:white;
 }
 h2 {
-    color:darkblue; background-color:orange;
+    color:darkblue; background-color:rgb(41, 170, 199);
 }
 h3 {
-    color:black; background-color:cyan;
+    color:black; background-color:rgba(255, 0, 43, 0.05);
     text-align: center;
 }
 h5 {
