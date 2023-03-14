@@ -38,37 +38,91 @@
     </header>
     <div class="contenedor">
         <section>
-            <h1> Recursos educativos con Etiquetas Basicas de HTML, atributos y valores</h1>
-            <p> Este sitio a sido diseñado para suplir la necesidad de la presencialidad en la clases de los
-                estudiantes. Esta dirigido a todas las <br>
-                instituciones educativas del pais, esto como resultado a la necesidad de elaborar recursos educativos
-                digitales que nos permitan dinamizar <br>
-                las metodologias de aprendizaje autonomo y dirigido. Teniendo en cuenta el avance de la tecnologia
-                podemos enfocar la enseñanza y aprendizaje <br>
-                de maneras virtuales. Estos proyectos, es diseñado con contenidos multimediales e interactivos, basados
-                en HTML5, CSS3 entre otras tecnologías <br>
-                para que el aprendizaje sea practico y dinamico.</p>
+            <h1> Recursos educativos con la herramienta Flex Box para el diseño de paginas Web</h1>
+            <p> Este sitio a sido diseñado fue diseñado con el objetivo de crear recursos educativos virtual con el fin de afianzar <br>
+                los conocimientos previos y a su vez poner en practicas los nuevos conocimientos adquiridos
+                Esta dirigido para todas las instituciones de educacion superior del pais especialmente para la UNAD, esto ayudara de manera positiva a los nuevos estudiantes <br>
+                los cuales podran utilizar estas metodologias de aprendizaje autonomo y dirigido. Teniendo en cuenta que la tecnologia cada dia sigue avanzando<br>
+                y es por eso que este sitio web les servira a la comunidad estudiantil la utilizacion de las herramientas Flex Box en el diseño de sitios Web<br></p>
             <article>
                 <p>
-                <h2> Etiquetas basicas</h2>
+                <h2> ALIGN-ÍTEMS</h2>
                 </p>
-                <p> Todas las páginas HTML contienen los mismos elementos básicos:
-                    <h3>Doctype:</h3> Es la primera línea de código que tiene que estar en cualquier documento HTML. 
-                    Esta línea indica al navegador qué especificación de HTML se está utilizando. <br>
-                    <h3>HTML:</h3> El par de etiquetas < html> y < /html> se encuentran al principio y al final de todo documento HTML y sirve para indicar a todos las aplicaciones 
-                    que pueden analizar texto sin formato (no solamente a los navegadores) que esa página utiliza HTML. <br>
-                    <h3>Head:</h3> Las etiquetas < head> y < /head> delimitan el contenido de la cabecera del documento, es decir, el título de la página y una información que no
-                    aparece en la pantalla. <br>
-                    <h3>Title:</h3> El par de etiquetas < title> y < /title> rodea el texto del título. El título aparece en la barra de título del navegador web cuando presenta
-                    la página. Normalmente va dentro del elemento < head>. <br>
-                    <h3>Meta:</h3> < meta> permite aportar metainformación al documento, para su mejor identificación e indexación por los motores de búsqueda.
-                    <h3>Body:</h3> Las etiquetas < body> y < /body> rodean el contenido visible de la página. También puede llevar incluida información sobre las propiedades de la
-                    página, por ejemplo < body bgcolor="#RRGGBB"> define el color de fondo de la página. <br>
-                    <h2>Etiquetas HTML más Comunes</h2>
-                    Comentarios: < !-- comentarios -->: Para escribir anotaciones que sirven para ayudar a la comprensión del código. Lo que se escribe dentro de esta etiqueta es
-                    ignorado por el navegador y no se muestra en la página. Formato de Textos <br>
-                    < b>... < /b> : Aplica negrita al texto incluido entre las etiquetas (es equivalente usar < strong>… < /strong>) <br>
-                    < i>... < /i>: Aplica cursiva al texto incluido entre las etiquetas (es equivalente usar < em>… < /em>) < u> < /u>: Aplica subrayado <br>
+                <li>
+                    <p>Imagen 4</p>
+                    <img src="img/imagen4.png" width= "400" height="400" alt="prototipo de pagina HTML5">
+                </li>
+                <p>Establece el comportamiento estándar de cómo flex ítems están alineados según el eje transversal (cross axis). En cierto modo, funciona de manera similar al justify-content,
+                pero en el eje transversal (perpendicular al eje principal). 
+                . .flex-container {align-items: stretch | flex-start | flex-end | center | baseline; }
+                </p>
+                <h2>Stretch (estándar)</h2>
+                <p> estira los ítems para llenar el contenedor, respetando el min-width/max-width)</p>
+                <h2>Flex-start/start/self-start:</h2>
+                <p>ítems se posicionan al inicio del eje transversal. La diferencia entre ellos es sutil y se refiere a las reglas de flex-direction o writing-mode.</p>
+                <h2>center:</h2>
+                <p>ítems se centran en el eje transversal.</p>
+                <h2>baseline:</h2>
+                <p> ítems se alinean de acuerdo con sus baselines.</p>
+                <p>Los modificadores safe y unsafe se puede usar junto con todas estas palabras clave (por favor verifique el soporte de cada navegador) y sirven para evitar cualquier
+                   alineación de elementos que haga con que el contenido sea inaccesible (por ejemplo, fuera de la pantalla)
+                </p>
+                <h2>ALIGN-CONTENT</h2>
+                <li>
+                    <p>Imagen 5</p>
+                    <img src="img/imagen5.png" width= "400" height="400" alt="prototipo de pagina HTML5">
+                </li>
+                <p>Organiza las líneas dentro de un flex container cuando hay espacio adicional en el eje transversal, similar a cómo justify-content alinea ítems individuales dentro del eje
+                    principal. </p>
+                <h2>flex-container</h2> 
+                 <p>align-content: flex-start | flex-end | center | space-between | space-around | stretch;</p>   
+                 <h2>flex-start / start:</h2>
+                 <p> ítems alineados con el inicio del contenedor. El valor (con mayor soporte de los navegadores) flex-start se guía por la flex-direction,mientras que start se guía por la dirección del writing-mode.</p>
+                 <h2>Flex-end/end:</h2>
+                 <p> ítems alineados con el final del contenedor. El valor (con mayor soporte de los navegadores) flex-end se guía por la flex-direction, mientras que end se guía por la dirección del writing-mode.</p>
+                 <h2>center: </h2>
+                 <p> ítems centrados en el contenedor.</p>
+                 <h2>space-between:</h2>
+                 <p> ítems distribuidos uniformemente; la primera línea al inicio del contenedor y la última línea al final del contenedor.</p>
+                 <h2>space-around:</h2>
+                 <p>ítems distribuidos uniformemente con el mismo espaciamiento entre cada línea.</p>
+                 <h2>space-evenly:</h2>
+                 <p>elementos distribuidos uniformemente con el mismo espaciamiento entre ellos</p>
+                 <h2>stretch (estándar): </h2>
+                 <p> ítems en cada línea se estiran para ocupar el espacio remanente entre ellas.</p>
+
+                 <h2>FLEX-GROW</h2>
+                 <li>
+                    <p>Imagen 6</p>
+                    <img src="img/imagen6.png" width= "300" height="300" alt="prototipo de pagina HTML5">
+                </li>
+                <p>Define la habilidad de un flex ítem de crecer, según el caso. El valor de esta propiedad es un valor numérico sin indicación de unidad, que se utiliza para calcular la
+                   proporción. Este valor dicta la cantidad de espacio disponible en el contenedor que ocupará el ítem.
+                   Si todos los ítems tienen flex-grow establecido en 1, el espacio remanente en el contenedor se distribuirá de manera uniforme entre todos. Si uno de los ítems tiene el valor 2, ocupará el doble de espacio en el contenedor que los demás (o al menos
+                   intentará hacerlo).
+                   .flex-item {flex-grow: <numero>; */\* el valor default(estándar) es 0 \*/* }
+                    La propiedad no acepta valores negativos.
+                </p>
+                <h2>flex-shrink</h2>
+                <p>Establece la habilidad de un flex ítem para contraerse, según el caso. .flex-item { flex-shrink: <número>; */\* el valor estándar es 0 \*/* }
+                La propiedad no acepta valores negativos.</p>
+                <h2>flex-basis</h2>
+                <p>Establece el tamaño estándar de un elemento antes de que se distribuya el espacio remanente del contenedor. Puede ser un largo (por ejemplo, 20%, 5rem, etc.) o una
+                    palabra clave. La palabra clave auto significa "observe mis propiedades de altura o ancho" (lo que era hecho por la palabra clave t main-size, que fue depreciada). La palabra clave content significa "establezca el tamaño según el contenido interno del
+                    ítem"; esta palabra clave aún no tiene mucho soporte, por lo que no es fácil de probar,al igual que sus relacionadas: max-content, min-content y fit-content.
+                    .flex-item {flex-basis: flex-basis: | auto; */\* el valor estándar es auto \*/* }
+                    Con el valor 0, el espacio adicional alrededor del contenido no se considera. Con el valor de auto, el espacio adicional se distribuye con base en el valor de flex-grox del ítem.  
+                </p>
+                <h2> flex</h2>
+                <p>Esta es la propiedad shorthand para flex-grow, flex-shrink y flex-basis, combinadas. El segundo y tercer parámetros (flex-shrink y flex-basis) son opcionales. El estándar es 0 1 auto, pero si lo defines con un solo número, es equivalente a 0 1.
+                    .item {flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ] }
+                </p>
+                <h2>align-self</h2>
+                <li>
+                    <p>Imagen 7</p>
+                    <img src="img/imagen7.png" width= "300" height="300" alt="prototipo de pagina HTML5">
+                </li>
+                <p>Permite que la alineación estándar (o lo que esté definido por align-items) se sobrescriba para ítems individuales
                     <h3>Bibliografia</h3>
                     https://www.aluracursos.com/blog/flexbox-css-guia-completo-elementos-y-ejemplos  09-03-2023 18:00 PM<br>
                 </p>
